@@ -53,12 +53,12 @@ header {
     color: white;
 
     min-height: 150px;
-    max-height:250px;
+    max-height:350px;
     width: auto;
     padding: 40px 0px 0px 0px;
 }
 
-header > h1 {
+header h1 {
     color: white;    
     font-family: var(--fonte-destaque);
     font-size: 3em;
@@ -69,7 +69,7 @@ header > h1 {
     margin-bottom: 20px;    
 }
 
-header > p {
+header p {
     text-align: center;
     color: white;
     font-family: var(--fonte-padrao);
@@ -77,10 +77,9 @@ header > p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.473);
 
     max-width: 600px;
-    padding: 0px 10px 0px 10px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0px 10px 20px 10px;
+    margin: auto;
+    
 }
 
 nav {
